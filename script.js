@@ -67,7 +67,7 @@ let Mobile = function (name) {
 
             }
         }
-        document.getElementById("inbox" + phone.name).value = Iphone.getInbox();
+        document.getElementById("inbox" + phone.name).value = phone.getInbox();
         document.getElementById("outbox" + mobile.name).value = mobile.getOutput();
         document.getElementById("msg" + mobile.name).value = "";
         document.getElementById("battery" + mobile.name).innerHTML = mobile.battery; //hien thi pin
